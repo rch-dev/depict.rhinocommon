@@ -7,7 +7,7 @@ namespace Depict.Core
     {
         public static Curve GetTestGeometry()
         {
-            return new LineCurve(new Point3d(0, 0, 0), new Point3d(1, 1, 1)).ToNurbsCurve();
+            return new LineCurve(Point3d.Origin, new Point3d(1, 1, 1)).ToNurbsCurve();
         }
     }
 }

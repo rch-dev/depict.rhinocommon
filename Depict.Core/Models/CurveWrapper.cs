@@ -7,17 +7,12 @@ namespace Depict.Core
 {
     public class CurveWrapper
     {
+        public string Name { get; set; }
         public Curve Curve { get; set; }
-        public double Length { get; set; }
 
         public CurveWrapper()
         {
 
-        }
-
-        public CurveWrapper(Curve crv)
-        {
-            Curve = crv;
         }
 
         public int GetSpanCount()
